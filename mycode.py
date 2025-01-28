@@ -17,6 +17,17 @@ new1 = {"name":"varun",
         "city":"hyd"}
 df.loc[len(df)] = new1
 
+##add more data 
+
+new2 = {'name':"preety",
+        'age':20}
+df.loc[len(df)] = new2
+## add more data
+new3 = {"name":"nitish",
+        "age":19,
+        "city":"hyd"}
+df.loc[len(df)] = new3
+
 data_dir = 'data'
 os.makedirs(data_dir, exist_ok=True)
 file_path = os.path.join(data_dir, "sample_data.csv")
